@@ -1,0 +1,105 @@
+@import "./variables";
+@import "./responsive";
+
+.navbar {
+  background-color: $neutral;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    height: 40px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+    p {
+      color: white;
+      margin-right: 46px;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__item.active {
+    border-radius: 10px;
+    border-color: white;
+  }
+
+  &__login {
+    display: flex;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px 68px;
+    color: white;
+    background-color: $primaryColor;
+    text-decoration: none;
+    align-items: center;
+  }
+}
+
+.topnav {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+
+  &-pin {
+    width: 187px;
+    display: flex;
+    margin-right: 46px;
+
+    p {
+      font-size: 12px;
+    }
+  }
+
+  &-mail {
+    width: 285px;
+    display: flex;
+
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  &__phone {
+    display: flex;
+    flex-direction: row;
+    padding-top: 18px;
+    gap: 8px;
+    width: 152px;
+    height: 34px;
+
+    p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #232323;
+      display: flex;
+      flex-direction: column;
+
+      span {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #232323;
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@import "./variables";
+@import "./responsive";
+
+.featured {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  &__heading {
+    &--title {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 72px;
+      color: $primaryColor;
+    }
+
+    &--caption {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 48px;
+      color: $neutral;
+      width: 678px;
+    }
+  }
+  &__btn {
+    background: $primaryColor;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 179px;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;
+    right: 66px;
+
+    a {
+      text-decoration: none;
+      margin: auto;
+      color: white;
+    }
+  }
+  &__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 130px;
+  }
+}

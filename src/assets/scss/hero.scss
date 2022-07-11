@@ -1,0 +1,47 @@
+@import "./variables";
+@import "./responsive";
+
+.hero {
+  background-image: url(../img//hero.png);
+  height: 529px;
+  object-fit: cover;
+
+  &__wrapper {
+    padding: 97px 0px 0px 108px;
+  }
+
+  &__title {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 76px;
+    color: #ffffff;
+  }
+
+  &__caption {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #e3e3e3;
+    padding-right: 850px;
+    margin-bottom: 32px;
+    margin-top: 16px;
+  }
+
+  &__btn {
+    display: flex;
+    max-width: 192px;
+    max-height: 52px;
+    border-radius: 8px;
+    padding: 16px 47px;
+    color: white;
+    background-color: $primaryColor;
+    text-decoration: none;
+    align-items: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
