@@ -26,6 +26,7 @@
     margin: auto;
     width: 200px;
     height: 40px;
+    margin-bottom: 25px;
 
     &--link {
       font-family: "Poppins";
@@ -400,6 +401,12 @@
   width: 281px;
   border-radius: 0px;
   z-index: -2;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+    background-color: #3e3632;
+  }
   // margin: 0 auto;
 
   &__img {

@@ -7,9 +7,9 @@ const Navbar = () => {
         <img className="navbar__logo" src={require("../assets/img/logo.png")} alt="logo" />
         <div className="navbar__list">
           <p>New Cars</p>
-          <p>New Cars</p>
-          <p>New Cars</p>
-          <p>New Cars</p>
+          <p>Used Cars</p>
+          <p>Reviews</p>
+          <p>News</p>
         </div>
         <div className="navbar__item">
           <a className="navbar__login" href="/">
