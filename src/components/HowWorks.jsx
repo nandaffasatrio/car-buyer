@@ -9,11 +9,11 @@ const HowWorks = () => {
         <div className="howworks__findcar">
           <img className="howworks__findcar--img" src={require("../assets/img/findcar.png")} alt="logo" />
           <h4 className="howworks__findcar--title">Find Car</h4>
-          <p className="howworks__findcar--caption">Our cars are located at prime areas where by there won’t be problem with transportation </p>
+          <p className="howworks__findcar--caption2">Our cars are located at prime areas where by there won’t be problem with transportation </p>
         </div>
         <div className="howworks__findcar">
           <img className="howworks__findcar--img" src={require("../assets/img/makepayment.png")} alt="logo" />
-          <h4 className="howworks__findcar--title">Make Payment</h4>
+          <h4 className="howworks__findcar--title">Make Payments</h4>
           <p className="howworks__findcar--caption">Our estates comes with good network,portable water , 24hrs light and round the clock security.</p>
         </div>
         <div className="howworks__findcar">

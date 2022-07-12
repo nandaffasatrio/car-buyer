@@ -6,6 +6,10 @@
   flex-direction: row;
   position: relative;
   &__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 25px;
     &--title {
       font-family: "Poppins";
       font-style: normal;
@@ -34,7 +38,7 @@
     width: 179px;
     height: 40px;
     position: absolute;
-    bottom: 20px;
+    bottom: 55px;
     right: 66px;
 
     a {
