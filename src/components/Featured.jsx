@@ -12,9 +12,29 @@ const Featured = () => {
           <a href="/">Show More</a>
         </div>{" "}
       </section>
-      <div className="featured__img">
-        <img className="featured__img--2" src={require("../assets/img/palace.png")} alt="logo" />
-        <img className="featured__img--3" src={require("../assets/img/ivy.png")} alt="logo" />
+      <div className="featured__card">
+        <div className="featured__palace">
+          <img className="featured__img--2" src={require("../assets/img/lekki.png")} alt="logo" />
+          <div className="featured__palace--body">
+            <h3>The Palace</h3>
+            <p>Duplex</p>
+          </div>
+          <div className="featured__palace--price">
+            <p>Lekki, phase 2</p>
+            <span>$2,000</span>
+          </div>
+        </div>
+        <div className="featured__palace">
+          <img className="featured__img--3" src={require("../assets/img/m3.png")} alt="logo" />
+          <div className="featured__palace--body">
+            <h3>Ivy Rory</h3>
+            <p>Duplex</p>
+          </div>
+          <div className="featured__palace--price">
+            <p>Lekki, phase 2</p>
+            <span>$2,000</span>
+          </div>
+        </div>
         <img className="featured__img--1" src={require("../assets/img/ride.png")} alt="logo" />
       </div>
     </div>

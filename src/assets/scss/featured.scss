@@ -26,7 +26,7 @@
       font-size: 32px;
       line-height: 48px;
       color: $neutral;
-      width: 678px;
+      width: 640px;
     }
   }
   &__btn {
@@ -47,10 +47,69 @@
       color: white;
     }
   }
-  &__img {
+
+  &__card {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 130px;
+    justify-content: space-between;
+    padding-right: 64px;
+    padding-left: 64px;
+    margin-bottom: 100px;
+  }
+
+  &__palace {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &--body {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      h3 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 31.7771px;
+        line-height: 48px;
+        color: #232323;
+      }
+
+      p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19.0663px;
+        line-height: 29px;
+        color: #232323;
+      }
+    }
+
+    &--price {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19.0663px;
+        line-height: 29px;
+        color: #232323;
+        opacity: 0.8;
+      }
+
+      span {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19.0663px;
+        line-height: 29px;
+        color: #ee1b24;
+      }
+    }
   }
 }
