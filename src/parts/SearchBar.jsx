@@ -25,7 +25,10 @@ const SearchBar = () => {
         <h4 className="search__new--title" onClick={handleSearch}>
           New/Used
         </h4>
-        <p>New Car</p>
+        <div className="search__type--caption">
+          <p>New Car</p>
+          <img src={require("../assets/img/v.png")} alt="" />
+        </div>
         {isSearch && (
           <div className="search__new--choice">
             <label htmlFor="car">
@@ -52,16 +55,22 @@ const SearchBar = () => {
         <h4 className="search__price--title" onClick={handlePrice}>
           Price Range
         </h4>
-        <div className="search__price--caption">
-          <p>
-            <img src={require("../assets/img/money.png")} alt="money" />
-            $10.000
-          </p>
-          <p>--</p>
-          <p>
-            <img src={require("../assets/img/money.png")} alt="money" />
-            $100.000
-          </p>
+        <div className="search__price--caption_wrapper">
+          <div className="search__price--caption">
+            <p>
+              <img src={require("../assets/img/money.png")} alt="money" />
+              $10.000
+            </p>
+            <p>
+              <img className="seacrch__price--caption_img" src={require("../assets/img/line.png")} alt="" />
+            </p>
+
+            <p>
+              <img src={require("../assets/img/money.png")} alt="money" />
+              $100.000
+            </p>
+          </div>
+          <img src={require("../assets/img/v.png")} className="search__price--caption_v" alt="" />
         </div>
         {isPrice && (
           <div className="search__price--section">
@@ -91,7 +100,10 @@ const SearchBar = () => {
         <h4 className="search__type--title" onClick={handleType}>
           Vehicle Type
         </h4>
-        <p>+ 10 more</p>
+        <div className="search__type--caption">
+          <p>+ 10 more</p>
+          <img src={require("../assets/img/v.png")} alt="" />
+        </div>
         {isType && (
           <div className="type">
             <div className="type__title">
